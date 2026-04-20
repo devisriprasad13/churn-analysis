@@ -1,4 +1,8 @@
 import pandas as pd
+import streamlit as st
+
+st.title("Churn Analysis Dashboard 🚀")
+st.write("If you see this, app is working!")
 
 def load_raw_data(filepath: str) -> pd.DataFrame:
     """
